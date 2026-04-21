@@ -1,0 +1,22 @@
+{
+  "name": "r3f-tv-viewer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "capture:web1": "node scripts/capture-web1-screen.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.4.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite": "^7.2.7",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {}
+}
