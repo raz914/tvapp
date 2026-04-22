@@ -4,7 +4,7 @@ dist/
 # Local environment overrides
 .env.local
 .env.*.local
-
+node_modules
 # Logs
 *.log
 npm-debug.log*
